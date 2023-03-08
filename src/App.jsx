@@ -1,8 +1,7 @@
-import { Box } from "@chakra-ui/react";
 import "./App.css";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
-import Start from "./component/Start";
+import Login from "./pages/login/Login";
 
 const theme = extendTheme({
   fonts: {
@@ -14,9 +13,7 @@ const theme = extendTheme({
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box bg="#1a1a1a">
-        <Start />
-      </Box>
+      <Login />
     </ChakraProvider>
   );
 }
