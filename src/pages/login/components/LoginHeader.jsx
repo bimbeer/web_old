@@ -4,11 +4,10 @@ import logo from "../../../assets/graphics/logo.svg";
 export default function LoginHeader() {
   return (
     <Box
-      boxShadow="dark-lg"
       pt="1rem"
       pb="1rem"
       width="100%"
-      bgGradient="linear(to-b, black, #000000cc)"
+      bgGradient="linear(to-b, black, #00000000)"
     >
       <Center>
         <Image boxSize="6rem" src={logo} alt="Logo" />
