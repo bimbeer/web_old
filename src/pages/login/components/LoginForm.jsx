@@ -35,7 +35,7 @@ export default function LoginForm() {
                     color="whiteAlpha.900"
                     type="email"
                     id="email"
-                    autoComplete="none"
+                    autoComplete="off"
                   />
                 </div>
                 <div>
