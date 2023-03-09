@@ -16,7 +16,7 @@ export default function LoginModal({ form, isOpen, onClose }) {
         <ModalHeader>
           <Text color="whiteAlpha.800">Zaloguj się</Text>
         </ModalHeader>
-        <ModalCloseButton color="whiteAlpha.800" />
+        <ModalCloseButton aria-label="modal-close" color="whiteAlpha.800" />
         <ModalBody>{form}</ModalBody>
       </ModalContent>
     </Modal>
